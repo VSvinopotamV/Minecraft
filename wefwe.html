@@ -1,0 +1,390 @@
+<style type="text/css">
+	.osnova{width: 100%; height: 3100; background-color: #411900; margin-right: auto;margin-left: auto; margin-top: -10px; background-image: url(bd0977936686b3172126f8afe90edb4e.png); background-size: 100% 30%  }
+	.shapka{height: 75px; width: 100%; background-color: #686868; padding-top: 0px; display: flex; opacity: 0.8;transition: 0.5s}
+	.shapka:hover{opacity: 1; transition: 0.5s}
+	.logo{height: 75%; width: 300; background-color: none; margin-left: 20px; }
+	.logophoto{height: 130%; width: 100%}
+	.select{margin-left: 600px; width: 130; height: 50px; font-family: mine; margin-top: 17px; color: white ; border: 0px; border-color: red; outline: 0px; background-color: #686868;scroll-behavior: smooth; font-size: 25}
+	.silka{font-family: mine; font-size: 25px; margin-left: 50px; text-decoration: none; margin-top: 25px; color: white}
+	.silka:hover {color:brown; transition: 0.5s}
+	.big_photo{height: 450; width: 800; background-color: pink; margin-left: auto; margin-right: auto; margin-top: 20px;border-radius: 5px;border: solid 3px; color :white;}
+	.img{height: 100%;}
+	.div2{height: 2550; width: 100%; background-color: purple; margin-top: 20px; padding-top: 1px; background-image: url(maxresdefault.jpg); opacity: 2}
+	.story{height: 250; width: 75%; background-color: gray; margin-right: auto; margin-left: auto; margin-top: 30px; background-image: url(2020-11-23_16.28.54.png); }
+	.story:hover {background-image: url(2020-11-23_16.30.59.png); transition: 1s; display: flex;}
+	.opacity{display: flex;opacity: 0; height: 100%; width: 100%; transition: 1.5s}
+	.opacity:hover{display: flex; opacity: 1; transition: 1.5s}
+	.kartinka1{height: 200; width: 300; background-color: black; margin-left: 100px; margin-top: 25; border-radius: 5px; border: solid 5px; color :white; }
+	.opis1{height: 200; width: 800; background-color: black ; margin-left: 100px; margin-top: 25; border-radius: 5px;border: solid 5px; color :white;}
+	.kartinka2{height: 500; width: 300; background-color: black; margin-left: 80px; margin-top: 25; border-radius: 5px; border: solid 5px; color :white; background-image: url(4123.jpg); background-size: 100% 30% }
+	.opis2{height: 200; width: 800; background-color: black ; margin-left: 100px; margin-top: 150; border-radius: 5px;border: solid 5px; color :white;  background-image: url(3670d5c4392f9ecc9ef1c0909e391fcb-obsidian.png); background-size: 50% 100%}
+	.kartinka3{height: 350; width: 500; background-color: black; margin-left: 70px; margin-top: 20; border-radius: 5px; border: solid 5px; color :white; }
+	.opis3{height: 150; width: 700; background-color: black ; margin-left: 100px; margin-top: 60; border-radius: 5px;border: solid 5px; color :white; background-image: url(3670d5c4392f9ecc9ef1c0909e391fcb-obsidian.png)}
+	.kartinka4{height: 380; width: 500; background-color: black; margin-left: 100px; margin-top: 25; border-radius: 5px; border: solid 5px; color :white; }
+	.opis4{height: 225; width: 800; background-color: black ; margin-left: 100px; margin-top: 100; border-radius: 5px;border: solid 5px; color :white; background-image: url(2020-11-23_16.29.13.png); background-size: 50% 100%}
+	.kartinka5{height: 500; width: 300; background-color: black; margin-left: 115px; margin-top: 25; border-radius: 5px; border: solid 5px; color :white; }
+	.opis5{height: 200; width: 800; background-color: black ; margin-left: 100px; margin-top: 25; border-radius: 5px;border: solid 5px; color :white;}
+	.mobs{height: 600; width: 75%; background-color: gray; margin-right: auto; margin-left: auto; margin-top: 40px; background-image: url(2020-11-23_16.28.54.png);}
+	.mobs:hover{background-image: url(2020-11-23_16.30.59.png); transition: 1s; display: flex;}
+	.mech{height: 400; width: 80%; background-color: gray; margin-right: auto; margin-left: auto; margin-top: 40px; background-image: url(2020-11-23_16.28.54.png);}
+	.mech:hover{background-image: url(2020-11-23_16.30.59.png); transition: 1s; display: flex;}
+	.serv{height: 450; width: 90%; background-color: gray; margin-right: auto; margin-left: auto; margin-top: 40px; background-image: url(2020-11-23_16.28.54.png);}
+	.serv:hover{background-image: url(2020-11-23_16.30.59.png); transition: 1s; display: flex;}
+
+	.buy{height: 600; width: 75%; background-color: white; margin-right: auto; margin-left: auto; margin-top: 40px; background-image: url(2020-11-23_16.28.54.png); transition: 2s}
+	.buy:hover{background-image: url(2020-11-23_16.30.59.png); transition: 2s; display: flex; background-size: 100% 100%}
+	
+	.text10{background-color: none; height: 100px; width: 80px; background-image: url(Hebel.png); background-size: 100% 100%}
+	.text1{ margin-top: 50px; color: white; font-family: mine; font-size: 13px; text-align: center;  }
+	.text2{margin-top: auto; margin-bottom: auto; color: white; font-family: mine; font-size: 9px; text-align: center;  }
+	.text3{margin-top: auto; margin-bottom: auto; color: white; font-family: mine; font-size: 13px; text-align: center;  }
+	.shapka2{height: 230px; width: 100%; background-color: #686868; padding-top: 0px; display: flex; ; background-image: url(7a7ec0be0bfec61741161973f18cc1c6-bedrock_header_image.jpg)  }
+	.shapka2:hover{ transition: 0.5s; background-image: url(griga_baby.jpg); background-size: 100% 100%}
+	.flex{display: flex;}
+	.heightw {height: 100%; width: 100%;}
+	.heightw2 {height: 80%; width: 70%; margin-left: 30px; margin-top: 50px}
+	.heightw3 {height: 60%; width: 90%; margin-top: 100}
+	.heightw4 {height: 80%; width: 90%; margin-left: 25px; margin-top: 25px}
+	.heightw5 {height: 80%; width: 90%}
+	.heightw6 {height: 90%; width: 90%}
+	.heightw7 {height: 60%; width: 90%; margin-top: 90px; margin-left: 20px}
+	.heightw8 {height: 70%; width: 90%; margin-left: 20px; margin-top: 50px}
+	.heightw9 {height: 70%; width: 80%; margin-left: 20px; margin-top: 50px}
+	.heightw10 {height: 60%; width: 90%; margin-left: 10px; margin-top: 50px}
+	.m1{}
+	.m2{}
+	.m3{}
+	.m4{}
+	.m5{}
+	.m6{}
+	.m7{}
+	.m8{}
+	.m9{}
+	.m10{}
+	.perehod{display: flex;}
+	.imgb{margin-left: 35px; margin-top: 25px}
+	.mr{margin-left: 110px; margin-top: 00px}
+	body{margin: 0}
+
+	@font-face{font-family: mine; src:url(mine.ttf) }
+</style>
+
+<div  class="osnova" >
+	<div class="shapka">
+		<div class="logo">
+			<a href="https://www.minecraft.net/ru-ru"><img class="logophoto" src="minecraft-clip-art-64.png"></a>		
+		</div>
+		<select  class="select">
+			<option selected="true" disabled="disabled">GAME</option>
+			<option>Minecraft Bedrock Edition</option>
+			<option>Minecraft JAVA Edition</option>
+			<option>Minecraft Dangeons</option>
+		</select>
+		<a class="silka" href="https://www.minecraft.net/ru-ru/community">COMMUNITY</a>
+		<a class="silka" href="https://www.minecraftshop.com">MERCH</a>
+		<a class="silka" href="https://help.minecraft.net/hc/en-us">SUPPORT</a>
+	</div>
+	<div class="big_photo">
+		<img class="img" src="games-minecraft-33879.jpg">
+	</div>
+	<div class="div2">
+		<div class="story">
+			<div class="opacity">
+				<div class="kartinka1">
+					<img class="heightw" src="fr-minecraft_wallpaper_7WXU.jpg">
+				</div>
+				<div class="opis1">
+					<h1 class="text3">Главный герой — парень по имени Стив. Он непонятным образом попадает в мир Minecraft , где ему нужно выжить любой ценой. Для начала стив должен построить дом, добыть оружие и броню, а позже найти обсидиан. Благодаря обсидиану и огниву Стив создает портал в измерение ада и добывает визер палки. Стив должен добыть жемчуги эндера из эндерменов и соединить их с палками визеров. Стив отправляется в "Энд" и убивает главного босса "Дракон Края". Стив побеждает дракона, и на этом ОСНОВНОЙ сюжет игры заканчивается. Игроку дается воля свободы.</h1>
+				</div>
+			</div>
+		</div>
+<!--мобы-->
+		<div class="mobs">
+			<div class="opacity">
+				
+<!--мобы1-->
+			<div   class="m1 flex">
+				
+				<div class="kartinka2">
+					<img class="heightw2" src="zombie.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Зомби (англ. Zombie) — враждебные мобы, атакующие игроков и деревенских жителей, горящие на солнце.</h1>
+				</div>
+				<div class="text10">
+						
+				</div>
+					
+			</div>
+<!--мобы1-->
+			<div hidden="" class="m2">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw2" src="Creeper.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Крипер (от англ. Creeper, от слова to creep — «ползать») — зелёный, практически бесшумный моб-камикадзе. При приближении к игроку на небольшое расстояние начинает шипеть и взрывается спустя 1,5 секунды. При детонации издаёт звук, похожий на обычный взрыв, но мягче и короче. Не сгорает на солнце, в отличие от зомби и скелета, и не теряет активности, в отличие от паука и странника Края.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m3">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw3" src="Хоглин.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Хоглин (англ. Hoglin) — это враждебный моб, обитающий в Нижнем мире. Это первый моб Нижнего мира, способный к размножению и являющийся источником пищи.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m4">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw4" src="ifrit.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Ифрит (англ. Blaze) — летающий враждебный моб, появляющийся в адских крепостях.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m5">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw5" src="phantom.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Фантом (англ. Phantom) — это летающий враждебный моб-нежить, атакующий игроков, которые не спали более трёх игровых дней.</h1>
+				</div>
+				<div class="text10">
+						
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m6">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw6" src="kadavr.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Кадавр (англ. Husk) — это один из вариантов зомби, который появляется в пустыне. В отличие от обычных зомби, кадавры не горят на солнце.</h1>
+				</div>
+				<div class="text10">
+						
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m7">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw7" src="slimead.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Лавовый куб (англ. Magma Cube) — враждебный моб с тёмной оболочкой и глазами, содержащими красные, оранжевые и жёлтые цвета. Может быть трёх размеров: большой, средний и малый. Является аналогом слизней, проживающим в Нижнем мире.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m8">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw8" src="shalker.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Шалкер (англ. Shulker, образовано из слов shell — «панцирь» и lurker — «скрытень»)[1] — враждебный моб, обладающий формой полноразмерного блока и способный маскироваться под пурпурные блоки с помощью своего специфического окраса и той же формы.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m9">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw9" src="skeleton.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Скелет (англ. Skeleton) — враждебный моб, впервые появившийся в версии Survival Test. Скелеты — довольно быстрые и опасные противники, которые выпускают стрелы в игрока на большой скорости. Как и зомби, скелеты спаунятся только в тёмных областях, например, на поверхности ночью или в неосвещённых пещерах. Если солнце будет под углом в 15 градусов или больше к поверхности, то скелет загорится и будет получать повреждения от огня до смерти.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+<!--мобы1-->
+<div hidden="" class="m10">
+				<div class="perehod">
+				<div  class="kartinka2">
+					<img class="heightw10" src="slime.png">
+				</div>
+				<div class="opis2">
+					<h1 class="text1">Слизень (англ. Slime) — враждебный кубический зелёный желеподобный моб трёх размеров, способный видеть игрока через твёрдые блоки. Большие слизни после смерти делятся на слизней средних размеров, средние делятся на слизней маленьких размеров, а маленькие слизни вместо деления дропают слизь.</h1>
+				</div>
+				<div class="text10">
+					
+				</div>
+				</div>
+			</div>
+</div>	
+		</div>
+<!--мех-->
+	<div class="mech">
+		 <div class="opacity">
+		 	<!--ch1-->
+		 	<div class="ch1">
+				<div class="perehod">
+					<div  class="kartinka3">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/EwLH41eMBW8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="opis3">
+						<h1 class="text1">Перед вами лучший мем за всю историю майнкрафта. Реально</h1>
+					</div>
+					<div class="text10">
+						
+					</div>
+				</div>
+			</div>
+			
+
+			<div hidden="" class="ch2">
+				<div class="perehod">
+					<div  class="kartinka3">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OHLGJuyQPFs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="opis3">
+						<h1 class="text1">ТОП 15 Очень Простых и Полезных редстоун схем в Minecraft 1.11!</h1>
+					</div>
+					<div class="text10">
+						
+					</div>
+				</div>
+			</div>
+
+
+			<div hidden="" class="ch3">
+				<div class="perehod">
+					<div  class="kartinka3">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NxBHVv-5OOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="opis3">
+						<h1 class="text1">Братишкин и кто-то еще пытаются выжить в суровом hardcore мире</h1>
+					</div>
+					<div class="text10">
+						
+					</div>
+				</div>
+			</div>
+
+
+			<div hidden="" class="ch4">
+				<div class="perehod">
+					<div  class="kartinka3">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/iUZEE5Ob2H8?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="opis3">
+						<h1 class="text1">Все саундтреки из майнкрафта</h1>
+					</div>
+					<div class="text10">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--серв-->		
+		<div class="serv">
+			<div class="opacity">
+		 	<!--s1-->
+		 	<div class="s1">
+				<div class="perehod">
+					<div  class="kartinka4">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/DWZIfsaIgtE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="opis4">
+						<h1 class="text1">Minecraft Live 2020 было живым мероприятием, которое состоялось 3 октября 2020 года с 16:00 UTC. На майнконе нам показали новую обнову под названием "Caves and Cliffs", в котором изменять генерацию пещер и гор, а также добавят много всего интресесного. Было голосование за нового моба: лютиковую корову, светящегося спрута или криоманта. Во втором туре победил светящийся спрут.</h1>
+					</div>
+					
+						
+					</div>
+				</div>
+			</div>
+			
+
+	
+		</div>
+
+<!--buy-->
+	<div class="buy">
+		<div class="opacity">
+			<div class="perehod">
+				<div class="kartinka5">
+					<img class="imgb" src="Games_Subnav_Minecraft-228x350.png">
+					<a href="" class="text1 mr">Купить</a>
+				</div>
+				<div class="kartinka5">
+					<img class="imgb" src="Games_Subnav_Dungeona-228x350.png">
+					<a href="" class="text1 mr">Купить</a>
+				</div>
+				<div class="kartinka5">
+					<img class="imgb" src="Games_Subnav_MinecraftEarth-228x350.png">
+					<a href="" class="text1 mr">Купить</a>
+				</div>
+				
+					
+				
+			</div>
+		</div>
+	</div>		
+		
+
+		</div>
+
+	</div>
+	<div class="shapka2"></div>
+</div>
+
+
+
+
+<!---script--->
+<script
+  type="text/javascript"
+  src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"
+></script>
+<script type="text/javascript">
+  find("m1 text10").click("show", "m2", );
+  find("m2 text10").click("show", "m3", );
+  find("m3 text10").click("show", "m4", );
+  find("m4 text10").click("show", "m5", );
+  find("m5 text10").click("show", "m6", );
+  find("m6 text10").click("show", "m7", );
+  find("m7 text10").click("show", "m8", );
+  find("m8 text10").click("show", "m9", );
+  find("m9 text10").click("show", "m10", );
+  find("m10 text10").click("alert", "ВСЁ" );
+  find("ch1 text10").click("show", "ch2");
+  find("ch2 text10").click("show", "ch3");
+  find("ch3 text10").click("show", "ch4");
+  find("ch4 text10").click("alert", "ВСЁ");
+  find("s1 text10").click("show", "s2");
+  find("s2 text10").click("show", "s3");
+  find("s3 text10").click("show", "s4");
+  find("s4 text10").click("alert", "ВСЁ");
+</script>
